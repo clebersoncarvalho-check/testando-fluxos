@@ -8,7 +8,7 @@ class AccountLoginActions extends HTMLElement {
    * @type {Element | null}
    */
   shopLoginButton = null;
-
+//MUDANÇA AQUI
   connectedCallback() {
     this.shopLoginButton = this.querySelector('shop-login-button');
 
